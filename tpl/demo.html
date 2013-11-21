@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>资金页面</title>
+  <link rel="stylesheet" href="../public/css/bootstrap.css">
+  <link rel="stylesheet" href="../public/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="../public/css/style.css"></head>
+  
+  <!--[if IE]>
+    <link rel="stylesheet" href="../public/css/fix-ie.css">
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <link rel="stylesheet" href="../public/css/fix-ie-8.css">
+  <![endif]-->
+
+  
+
+
+
+<body>
+  <!--导航-->
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">HEYBY</a>
+        <ul class="nav">
+          <li class="active">
+            <a href="#"> <i class="icon-home"></i>HOME</a>
+          </li>
+          <li><a href="#">发起活动</a></li>
+          <li><a href="#">加入活动</a></li>
+          <li><a href="#">HEYBY会员</a></li>
+        </ul>
+
+        <ul class="nav nav-profile pull-right">
+          <li><a href="#">退出<span class="user-name">(夏冰)</span></a></li>
+          <li><a href="#"><i class="icon-user"></i>账户</a></li>
+          <li><a href="#"><i class="icon-envelope"></i>消息</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="main container">
+      <div class="row">
+          <div class="span3">
+              <div class="accordion funds-menus">
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne"><i class="icon-user"></i>&nbsp我的账户<i class="icon-chevron-right pull-right"></i></a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                      <div class="accordion-inner">
+                        <ul class="nav nav-list">
+                          <li class="active"><a href="#global">存款</a></li>
+                          <li><a href="#gridSystem">提款</a></li>
+                          <li><a href="#fluidGridSystem">交易明细查询</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo"><i class="icon-lock"></i>&nbsp账户安全管理 <i class="icon-chevron-right pull-right"></i></a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                      <div class="accordion-inner">
+                        <ul class="nav nav-list">
+                          <li><a href="#global">登陆</a></li>
+                          <li><a href="#gridSystem">支付</a></li>
+                          <li><a href="#fluidGridSystem">实名信息</a></li>
+                          <li><a href="#fluidGridSystem">密码找回</a></li>
+                          <li><a href="#fluidGridSystem">实名制注册</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="span9">
+            <div class="row">
+              <div class="span6">
+                <form class="form-horizontal account-save">
+                  <fieldset>
+                    <legend>账户存款</legend>
+                    <div class="control-group">
+                      <label class="control-label" for="inputPassword">存款方式</label>
+                      <div class="controls">
+                        <select>
+                          <option>支付宝</option>
+                          <option>储蓄卡</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label" for="inputEmail">存款金额</label>
+                      <div class="controls">
+                        <input type="text" placeholder="存款金额">
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">支付密码</label>
+                      <div class="controls">
+                        <input type="text" placeholder="支付密码">
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="controls">
+                        <input type="submit" class="btn btn-primary btn" value="进行存款">
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+              <div class="span3">
+                <fieldset class="account-balance">
+                  <legend>账户余额</legend>
+                  <table class="table">
+                    <tr><td>总计:</td>
+                    <td>￥2808.00</td></tr>
+                    <tr><td>现金:</td>
+                    <td>￥2000.00<a href="" class="pull-right">立即存款</a></td></tr>
+                    <tr><td>红包:</td>
+                    <td>￥808.00</td></tr>
+                  </table>
+                  <a href="#"><i class="icon-refresh"></i>刷新</a>
+                  <a href="#"><i class="icon-circle-arrow-left"></i>返回</a>
+                </fieldset>
+                <fieldset class="attention">
+                  <legend>注意事项</legend>
+                  <ul>
+                    <li>定期更改您的密码</li>
+                    <li>不要在密码中包含您的用户名、姓名或者出生年月</li>
+                    <li>混合使用字母和数字的组合，一增强您的密码的安全性级别</li>
+                    <li>尽量不要在公共场合或者陌生电脑上输入密码</li>
+                    <li>本站不会一任何名义要求用户将钱款打入某个人账户，如有发现请及时举报</li>
+                    <li>及时更新您电脑上的安全软件、安全控件等</li>
+                    <li>如出现钱款长时间未到账或者账户以藏情况请及时联系我们的客服人员，我们将尽快为您解决。</li>
+                  </ul>
+                </fieldset>
+                <fieldset class="self-forbid">
+                  <legend>自我禁止</legend>
+                  <p>Heyby.com允许客户自我禁止使用账户，嫌弃为6个月、1年、2年或5年。账户一旦关闭，客户无论任何原因都不能重开他的账户，直至所限定的限期到期</p>
+                  <p>在挂壁期间，我们将尽其所能避免客户另外开设一个新的账户。</p>
+                  <p>如果账户只是简单的"冻结"，则该账户可以在任何时间重开</p>
+                  <p>如果您希望使用这项功能或者像货值更多的相关信息，请联系我们。我们专业的客服人员将竭诚为您服务。</p>
+                  <address>
+                    <abbr title="Phone">客服电话:</abbr> 400-004-3929
+                  </address>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>HEYBY</p>
+    </div>
+  </footer>
+</body>
+  <script src="../public/js/jquery-1.10.2.min.js"></script>
+  <script src="../public/js/bootstrap.min.js"></script>
+  <script src="../public/js/index.js"></script>
+</html>
