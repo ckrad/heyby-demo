@@ -8,6 +8,9 @@
 /************************************************************
 *	公共部分
 *************************************************************/
+html {
+	background-color: #e9e9e9;
+}
 
 body {
 	position: relative;
@@ -109,4 +112,67 @@ body {
 .members .tiles-wrap {
 	max-width: 1170px !important; 
 	margin: 0 auto;
+}
+
+.members header h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 30px 0 3px 0;
+}
+
+.members header p {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.members  #tiles {
+  list-style-type: none;
+  position: relative; /** Needed to ensure items are laid out relative to this container **/
+  margin: 0 0;
+  padding: 0;
+}
+
+.members #tiles li {
+  width: 200px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+          border-radius: 2px;
+     -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: none; /** Hide items initially to avoid a flicker effect **/
+  cursor: pointer;
+  padding: 4px;
+}
+
+.members #tiles li.inactive {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.members #tiles li img {
+  display: block;
+}
+
+/**
+ * Grid item text
+ */
+.members #tiles li p {
+  color: #666;
+  font-size: 12px;
+  margin: 7px 0 0 7px;
+}
+
+/**
+ * Placerholder css
+ */
+.members .wookmark-placeholder {
+          border-radius: 2px;
+     -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  background-color: #eee;
+  border: 1px solid #dedede;
+  z-index: -1;
 }
