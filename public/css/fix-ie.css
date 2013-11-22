@@ -1,3 +1,17 @@
+/*
+*	ie8下拉菜单被遮住
+*/
+.header {
+	z-index: 99;
+	*zoom: 1;
+}
+.nav { 
+	overflow: visible;
+}
+
+/*
+*	ie8下不支持响应 固定为1170
+*/
 .row {
 margin-left: -30px;
 *zoom: 1;
@@ -345,3 +359,141 @@ margin-left: 30px;
 .row-fluid .thumbnails {
 margin-left: 0;
 }
+
+/* 由 F12 开发人员工具生成。这可能不是原始源文件的准确表示形式。*/
+BODY {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif
+}
+H1 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.h1 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+H2 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.h2 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+H3 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.h3 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+H4 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.h4 {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.lead {
+	FONT-FAMILY: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+}
+.navbar-wrapper {
+	RIGHT: 0px; POSITION: absolute; LEFT: 0px; Z-INDEX: 20; TOP: 0px
+}
+.navbar-wrapper .container {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.navbar-wrapper .navbar {
+	PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+.carousel {
+	HEIGHT: 460px
+}
+.carousel-caption {
+	RIGHT: 15%; LEFT: 15%; Z-INDEX: 10; BOTTOM: 40px
+}
+.carousel .item {
+	HEIGHT: 460px; BACKGROUND-COLOR: #777
+}
+.carousel-inner > .item > IMG {
+	HEIGHT: 460px; MIN-WIDTH: 100%; POSITION: absolute; LEFT: 0px; TOP: 0px
+}
+.carousel .masthead-bg {
+	HEIGHT: 460px; BACKGROUND-REPEAT: repeat-x; MIN-WIDTH: 100%; POSITION: absolute; LEFT: 0px; TOP: 0px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075)
+}
+.carousel .masthead-bg:after {
+	BACKGROUND: url(../img/bs-docs-masthead-pattern.png) center center; RIGHT: 0px; POSITION: absolute; CONTENT: ''; LEFT: 0px; DISPLAY: block; TOP: 0px; BOTTOM: 0px; opacity: .4
+}
+.masthead H1 {
+	FONT-SIZE: 60px; FONT-WEIGHT: bold; LETTER-SPACING: -2px; LINE-HEIGHT: 1
+}
+.masthead H2 {
+	FONT-SIZE: 18px; FONT-WEIGHT: 200; LINE-HEIGHT: 1.25
+}
+.masthead .bs3-link {
+	MARGIN-TOP: 20px
+}
+.masthead .bs2-link {
+	COLOR: #fff; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out
+}
+.masthead .bs2-link:hover {
+	COLOR: #fff; text-shadow: 0 0 10px rgba(255, 255, 255, 0.25)
+}
+.subhead {
+	BACKGROUND-REPEAT: repeat-x; COLOR: #fff; PADDING-BOTTOM: 20px; PADDING-TOP: 80px
+}
+.subhead:after {
+	BACKGROUND: url(../img/bs-docs-masthead-pattern.png) center center; RIGHT: 0px; POSITION: absolute; CONTENT: ''; LEFT: 0px; DISPLAY: block; TOP: 0px; BOTTOM: 0px; opacity: .4
+}
+.bc-social {
+	BORDER-TOP: #fff 1px solid; BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 15px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f5f5f5
+}
+.bc-social-buttons {
+	LIST-STYLE-TYPE: none; MARGIN-BOTTOM: 0px; LIST-STYLE-IMAGE: none; PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+.bc-social-buttons LI {
+	FONT-SIZE: 16px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 8px; DISPLAY: inline-block; LINE-HEIGHT: 1; PADDING-RIGHT: 8px
+}
+.projects .thumbnail {
+	MAX-WIDTH: 310px; TEXT-ALIGN: center; MARGIN-LEFT: auto; DISPLAY: block; MARGIN-RIGHT: auto
+}
+.projects .thumbnail .caption {
+	HEIGHT: 200px; OVERFLOW-Y: hidden; COLOR: #555
+}
+.projects .thumbnail .caption A:hover {
+	TEXT-DECORATION: none
+}
+.projects .thumbnail .caption A:focus {
+	TEXT-DECORATION: none
+}
+.projects .thumbnail IMG {
+	MAX-WIDTH: 100%; HEIGHT: auto
+}
+.projects-header {
+	FONT-WEIGHT: 200; TEXT-ALIGN: center; MARGIN: 60px auto 40px; DISPLAY: block; WIDTH: 60%
+}
+.projects-header H2 {
+	FONT-SIZE: 30px; LETTER-SPACING: -1px
+}
+.btn-shadow.btn-primary {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; box-shadow: inset 0 -4px 0 #2a6496; -webkit-box-shadow: inset 0 -4px 0 #2a6496
+}
+.btn-shadow.btn-lg {
+	PADDING-BOTTOM: 17px; PADDING-TOP: 13px; PADDING-LEFT: 35px; PADDING-RIGHT: 35px
+}
+.footer {
+	BORDER-TOP: #e5e5e5 1px solid; COLOR: #999; PADDING-BOTTOM: 30px; TEXT-ALIGN: center; PADDING-TOP: 30px; PADDING-LEFT: 0px; MARGIN-TOP: 70px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #f5f5f5
+}
+.bc-sidenav {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 30px 0px 0px; PADDING-RIGHT: 0px; WIDTH: 100%; BACKGROUND-COLOR: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065)
+}
+.bc-sidenav > LI > A {
+	BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 14px; MARGIN: 0px 0px -1px; BORDER-LEFT: #e5e5e5 1px solid; DISPLAY: block; PADDING-RIGHT: 14px
+}
+.bc-sidenav .glyphicon {
+	FLOAT: right; MARGIN-TOP: 2px; MARGIN-RIGHT: -6px; opacity: .25
+}
+#scrollUp {
+	HEIGHT: 38px; BACKGROUND: url(../img/top.png) no-repeat; RIGHT: 20px; WIDTH: 38px; BOTTOM: 20px
+}
+.dropdown-menu > LI > A:hover {
+	BACKGROUND-REPEAT: repeat-x; COLOR: #fff; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0); TEXT-DECORATION: none; BACKGROUND-COLOR: #357ebd
+}
+.dropdown-menu > LI > A:focus {
+	BACKGROUND-REPEAT: repeat-x; COLOR: #fff; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0); TEXT-DECORATION: none; BACKGROUND-COLOR: #357ebd
+}
+
