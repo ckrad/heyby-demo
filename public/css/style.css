@@ -1,71 +1,13 @@
-/*
-*    覆盖bootstrap的样式
-*/
+/************************************************************
+*	公共部分
+*************************************************************/
 
 body {
 	position: relative;
-	padding-bottom: 100px;
-}
-/*
-*主体
-*/
-.main {
-	margin-top: 68px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 150px;
 }
 
-.row-1 {
-	margin-top: 20px;
-}
-
-.row-2 {
-	margin-top: 100px;
-}
-/*
-*	左侧菜单
-*/
-
-.funds-menus {
-	margin-top: 39px;
-}
-.accordion a {
-    text-decoration: none;
-    color: #0f0f0f;
-}
-
-/*
-*	账户余额
-*/
-.account-balance {
-	/*margin-top: 20px;*/
-}
-
-.account-safe .table td, .account-balance .table td{
-	border: none;
-}
-
-/*
-*	注意事项
-*/
-.attention {
-	/*margin-top: 20px;*/
-}
-
-.attention ul {
-	margin-left: 0;
-}
-
-.attention li {
-	list-style: none;
-	padding-bottom: 10px;
-}
-
-/*
-*	自我禁止
-*/
-.self-forbid {
-	/*margin-top: 20px;*/
-}
 
 /*
 *	底部
@@ -79,16 +21,85 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-}
-/*
-* 修复ie10
-*/
-@media screen and (min-width:0\0) {  
-    .account-save {
-		margin-top: 20px;
-	}
+	
 }
 
-.h {
-	/*display: none;*/
+.hide {
+	display: none;
+}
+
+
+/************************************************************
+*	资金页面
+*************************************************************/
+
+/*
+*主体
+*/
+.funds .main {
+	margin-top: 68px;
+	padding-bottom: 40px;
+}
+
+.funds .row-1 {
+	margin-top: 20px;
+}
+
+.funds .row-2 {
+	margin-top: 100px;
+}
+/*
+*	左侧菜单
+*/
+
+.funds .funds-menus {
+	margin-top: 39px;
+}
+.funds .accordion a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+/*
+*	账户余额
+*/
+.funds .account-balance {
+	/*margin-top: 20px;*/
+}
+
+.funds .account-safe .table td, .account-balance .table td{
+	border: none;
+}
+
+/*
+*	注意事项
+*/
+.funds .attention {
+	/*margin-top: 20px;*/
+}
+
+.funds .attention ul {
+	margin-left: 0;
+}
+
+.funds .attention li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+/*
+*	自我禁止
+*/
+.funds .self-forbid {
+	/*margin-top: 20px;*/
+}
+
+
+/************************************************************
+*	会员列表页面
+*************************************************************/
+
+.members .tiles-wrap {
+	max-width: 1170px !important; 
+	margin: 0 auto;
 }
